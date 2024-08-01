@@ -64,6 +64,41 @@ export default {
         ).href,
         name: "materials",
       },
+      {
+        img: new URL(
+          "../../assets/images/homeslider/slide5.jpg",
+          import.meta.url
+        ).href,
+        name: "vegetables",
+      },
+      {
+        img: new URL(
+          "../../assets/images/homeslider/slide6.jpg",
+          import.meta.url
+        ).href,
+        name: "bags",
+      },
+      {
+        img: new URL(
+          "../../assets/images/homeslider/slide7.jpg",
+          import.meta.url
+        ).href,
+        name: "beuty pets",
+      },
+      {
+        img: new URL(
+          "../../assets/images/homeslider/slide8.jpg",
+          import.meta.url
+        ).href,
+        name: "fresh flowers",
+      },
+      {
+        img: new URL(
+          "../../assets/images/homeslider/slide9.jpg",
+          import.meta.url
+        ).href,
+        name: "fresh vegetables",
+      },
     ]);
     return {
       modules: [Navigation, Autoplay],
